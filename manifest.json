@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Coin coin",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["coin.js"],
+            "css":["style.css"],
+            "run_at": "document_end"
+        }
+    ],
+    "icons": {
+        "16": "images/logo512re.png",
+        "48": "images/logo512re.png",
+        "128": "images/logo512re.png"
+    },
+    "action": {
+        "default_icon": {              
+          "16": "images/logo512re.png",  
+          "24": "images/logo512re.png",   
+          "32": "images/logo512re.png"    
+        },
+        "default_title": "Coin !",  
+        "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [{
+        "resources": ["images/logo512re.png","style.css","coin.js"],
+        "matches": ["<all_urls>"],
+       "extension_ids": []
+      }]
+}
