@@ -3,7 +3,7 @@
 
 A chrome extension in which lots of ducks invade your browser
 
-![coin](https://github.com/Asticotboy/duck-invasion/tree/main/images/screenshot.png?raw=true)
+![coin](https://github.com/Asticotboy/duck-invasion/blob/main/images/screenshot.png)
 
 # How To Install ?
 
