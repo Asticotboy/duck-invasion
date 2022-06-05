@@ -20,7 +20,7 @@ Now the ducks will invade you
 
 If extension does not work, as it can be the case on OperaGX, you need to enable access to the results of the search bar. 
 This is the second checkbox :
-![coin](https://github.com/Asticotboy/duck-invasion/blob/main/images/screenshot3.png)
+![coin](https://github.com/Asticotboy/duck-invasion/blob/main/images/screenshotChechbox.png)
 
 And your problem is solved !
 
