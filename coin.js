@@ -32,8 +32,11 @@ function replaceImg(){
 document.body.style.backgroundImage = "url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb1%2FMale_mallard_standing.jpg%2F220px-Male_mallard_standing.jpg&imgrefurl=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FCanard&tbnid=L4pWU9bTISaPLM&vet=12ahUKEwiJ1ordwJT4AhU_XvEDHYT7Au8QMygBegUIARDaAQ..i&docid=Ly7LaZkGQso-iM&w=220&h=165&q=canard&ved=2ahUKEwiJ1ordwJT4AhU_XvEDHYT7Au8QMygBegUIARDaAQ')";
 
 
-showCoin(document.getElementsByTagName("p"));
-showCoin(document.getElementsByTagName("h1"));
-showCoin(document.getElementsByTagName("h2"));
-showCoin(document.getElementsByTagName("h3"));
-replaceImg();
+setInterval(()=>{
+    showCoin(document.getElementsByTagName("p"));
+    showCoin(document.getElementsByTagName("h1"));
+    showCoin(document.getElementsByTagName("h2"));
+    showCoin(document.getElementsByTagName("h3"));
+    replaceImg();
+},500);
+
