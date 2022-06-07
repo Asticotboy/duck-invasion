@@ -8,6 +8,10 @@ A chrome extension in which lots of ducks invade your browser
 ![coin](https://github.com/Asticotboy/duck-invasion/blob/main/images/screenshot.png)
 ![coin](https://github.com/Asticotboy/duck-invasion/blob/main/images/screenshot2.png)
 
+You can use it on the website [jeu2048](http://jeu2048.com/)
+
+![coin](https://github.com/Asticotboy/duck-invasion/blob/main/images/screenshot4.png)
+
 # How To Install ?
 
 At first enable the developper mode in chrome://extensions/. (on the right top corner)
