@@ -45,7 +45,10 @@ setInterval(()=>{
     showCoin(document.getElementsByTagName("h1"));
     showCoin(document.getElementsByTagName("h2"));
     showCoin(document.getElementsByTagName("h3"));
-    replaceTiles();
+    try{
+        replaceTiles();
+    }
+    finally{}
     replaceImg();
 },500);
 
