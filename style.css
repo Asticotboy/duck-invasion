@@ -1,0 +1,4 @@
+.tile-inner {
+    background: url('chrome-extension://__MSG_@@extension_id__/images/logo512re.png') !important;
+    /* background:linear-gradient(45deg, blue, red) !important; */
+}
